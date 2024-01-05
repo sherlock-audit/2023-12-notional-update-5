@@ -1,0 +1,74 @@
+{
+    "actions": {
+        "AccountAction": "0x98abc97c26097C1cE884e18087415743DE7842E4",
+        "BatchAction": "0xC4578c5044d20923Eb315aD7778be97cA02E9BE5",
+        "CalculationViews": "0x1fc8F62c75f7d5F031dB78277bA64C3E20ca1a0a",
+        "ERC1155Action": "0xe58ed9bed8211Eb6405d7288f8903084Bc6C4a57",
+        "GovernanceAction": "0xb7dCfEDE88405E0B4B75ff6829ae2f1f73D2294a",
+        "InitializeMarketsAction": "0x7226545a15C6048833644B992cD88393415341dD",
+        "LiquidateCurrencyAction": "0xcfbAFCe23e55EC0E6f864a3C16ADf2744D0Cb1f2",
+        "LiquidatefCashAction": "0x75903cdcA9c84955A2319F559AD90002994823FF",
+        "TreasuryAction": "0xD45Df6e08425DC619F18C7eB8De4016BC52e3569",
+        "VaultAccountAction": "0xC799d098669623d631e1F43659Bf51E776e23B3A",
+        "VaultAccountHealth": "0x37c3D118A10AC099127cfddb4058135E279523F3",
+        "VaultAction": "0xE1ca019F84Df3e02943b54255Af709699fa13168",
+        "VaultLiquidationAction": "0x825fe7a917E56D1f5E1758ae3c4df92E60659a17",
+        "Views": "0x357409FdF4960391b76f78E4DF6697E9dE66CEA6",
+        "nTokenAction": "0xA6A6e303032A52c5A1fB4fe9962DD705ca54f7C5"
+    },
+    "beacons": {
+        "PrimeCashProxy": "0x382173438e47b0c1F5dF9928F0e1f301b50Ed669",
+        "PrimeDebtProxy": "0x43c4B0107c190Bcc206361B81341b1A829b0722a",
+        "nTokenBeacon": "0xc4FD259b816d081C8bdd22D6bbd3495DB1573DB7",
+        "nTokenERC20Proxy": "0x5902c25821fBaFF05d04E3FdDC7F852B4a8953fc",
+        "pCashBeacon": "0x1F681977aF5392d9Ca5572FB394BC4D12939A6A9",
+        "pDebtBeacon": "0xDF08039c0af34E34660aC7c2705C0Da953247640"
+    },
+    "callbacks": {
+        "LeveragedNTokenAdapter": "0xc8de46b3035cc723549892016D2449eA9f7fA0A5"
+    },
+    "chainId": 42161,
+    "deployer": "0x8B64fA5Fd129df9c755eB82dB1e16D6D0Bdf5Bc3",
+    "guardian": "",
+    "libs": {
+        "FreeCollateralExternal": "0x50DA106863b47882e4eEfaE2303770019648Bd6f",
+        "MigrateIncentives": "0xF3101e69B3D14B611037F47CD169ad60991c64f2",
+        "SettleAssetsExternal": "0x65BA68d83F74D60c9e2270b05A2627a7C34F4bC4",
+        "TradingAction": "0xcC7cdD6a8655a70054de07D6c89996e371961Ecb",
+        "nTokenMintAction": "0x19696C32666b48caE818ADE42aEf02054b848666",
+        "nTokenRedeemAction": "0x8cc49Ed0D17F24777A7c181c0943F08bDDfb5eB6"
+    },
+    "networkName": "arbitrum-one",
+    "note": "0x019bE259BC299F3F653688c7655C87F998Bc7bC1",
+    "notional": "0x1344A36A1B56144C3Bc62E7757377D288fDE0369",
+    "routers": {
+        "PauseRouter": "0x3A571c167190d42a6aB822823d52b53D9a78Be95",
+        "Router": "0x8560C22F3B1FB258741d93520F62288a7AAE93c8"
+    },
+    "startBlock": 86540849,
+    "tokens": {
+        "DAI": {
+            "address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1"
+        },
+        "FRAX": {
+            "address": "0x17FC002b466eEc40DaE837Fc4bE5c67993ddBd6F"
+        },
+        "USDC": {
+            "address": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
+        },
+        "WBTC": {
+            "address": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f"
+        },
+        "WETH": {
+            "address": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+        },
+        "wstETH": {
+            "address": "0x5979D7b546E38E414F7E9822514be443A4800529"
+        }
+    },
+    "aaveLendingPool": "0x794a61358D6845594F94dc1DB02A252b5b4814aD",
+    "aavePoolDataProvider": "0x69FA688f1Dc47d4B5d8029D5a35FB7a548310654",
+    "gelatoBot": "0xF8FA7ca6D40F6cB0BA467aBBc23D2107EaEA7071",
+    "gelatoAutomate": "0xB3f5503f93d5Ef84b06993a1975B9D21B962892F",
+    "gelatoOpsProxyFactory": "0xC815dB16D4be6ddf2685C201937905aBf338F5D7"
+}
