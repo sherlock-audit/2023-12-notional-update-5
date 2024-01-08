@@ -1,7 +1,7 @@
-diff --git a/contracts/global/Deployments.sol b/contracts/global/Deployments.sol
+diff --git a/contracts-v3/contracts/global/Deployments.sol b/contracts-v3/contracts/global/Deployments.sol
 index 1a368b45..9e97e395 100644
---- a/contracts/global/Deployments.sol
-+++ b/contracts/global/Deployments.sol
+--- a/contracts-v3/contracts/global/Deployments.sol
++++ b/contracts-v3/contracts/global/Deployments.sol
 @@ -14,21 +14,21 @@ library Deployments {
      uint256 internal constant LOCAL = 1337;
  
